@@ -3,14 +3,14 @@
 This project demonstrates a data pipeline that fetches weather information for multiple cities from the OpenWeather API, streams the data into Apache Spark via Apache Kafka, and stores the processed data into AWS S3.
 
 ### Project Structure
-weather_data_pipeline/
-│
-├── src/
-│   ├── kafka_producer.py         # Script to fetch weather data and produce to Kafka
-│   ├── weather_streaming.py      # Spark streaming script to process and store data
-│
-├── requirements.txt              # Dependencies file
-├── README.md                     # Project documentation
+weather_data_pipeline/  
+│  
+├── src/  
+│   ├── kafka_producer.py         # Script to fetch weather data and produce to Kafka  
+│   ├── weather_streaming.py      # Spark streaming script to process and store data  
+│  
+├── requirements.txt              # Dependencies file  
+├── README.md                     # Project documentation  
 
 
 ### Setup Instructions
