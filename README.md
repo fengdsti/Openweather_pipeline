@@ -27,6 +27,8 @@ weather_data_pipeline/
     Obtain an OpenWeather API key from https://openweathermap.org/api  
     Configure your AWS credentials or use an AWS IAM role with appropriate permissions for S3.  
 
+
+Note: I have to appologize that I'm using Mac to do the project. The installation parts are not correctly done. So I had problems when I run the script. So the result is not achieved. 
 4. Run the Kafka producer script to fetch weather data and produce to Kafka; And run the Spark streaming script to process and store data in S3:
    ```bash
    python src/weather_streaming.py
