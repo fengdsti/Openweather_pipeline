@@ -4,12 +4,12 @@ This project demonstrates a data pipeline that fetches weather information for m
 
 ### Project Structure
 weather_data_pipeline/  
-│  
-├── src/  
-│      ├── weather_streaming.py      #  Script to fetch weather data and produce to Kafka and Spark streaming script to process and store data
-│  
-├── requirements.txt              # Dependencies file  
-├── README.md                     # Project documentation  
+ │  
+ ├── src/  
+ │      ├── weather_streaming.py: Script to fetch weather data and produce to Kafka and Spark streaming script to process and store data  
+ │  
+ ├── requirements.txt: Dependencies file  
+ ├── README.md: Project documentation  
 
 
 ### Setup Instructions
